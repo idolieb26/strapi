@@ -154,3 +154,19 @@ See for yourself what's under the hood by getting access to a [hosted Strapi pro
 ## License
 
 See the [LICENSE](./LICENSE) file for licensing information.
+
+## Update DateTimePicker
+1. Run the below command inside the root directory so as to create `build` folders for core modules
+```
+yarn build
+```
+2. Copy `dist/DateTimerPicker` from `strapi/design-system` to `root_directory/node_modules/@strapi/design-systems/dist`.
+
+3. Create admin `build` by running the command inside `packages/core/admin` directory
+```
+yarn build
+```
+
+4. Copy the created `build` folder and paste it to `your_project/node_modules/@strapi/admin`
+
+5. Run your project
