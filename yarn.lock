@@ -1937,7 +1937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.22.6
   resolution: "@babel/runtime@npm:7.22.6"
   dependencies:
@@ -2018,6 +2018,111 @@ __metadata:
   bin:
     watch: cli.js
   checksum: 88f395ca0af2f3c0665b8ce7bb29e83647ec5d141e8735712aeeee4117081555436712966b6957aa1c461f6f826a4d23b0034e379c443a10e919f81c8748bf29
+  languageName: node
+  linkType: hard
+
+"@codemirror/autocomplete@npm:^6.0.0":
+  version: 6.8.1
+  resolution: "@codemirror/autocomplete@npm:6.8.1"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.6.0
+    "@lezer/common": ^1.0.0
+  peerDependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.0.0
+  checksum: 8599cd91defa3fea5276a7f9aff43ced323d9c4401dfb867e43608ba72ded48cb458256c5c784949a6332c0c20ba2fedac16a5708335cd809d269e4ea5076957
+  languageName: node
+  linkType: hard
+
+"@codemirror/commands@npm:^6.0.0, @codemirror/commands@npm:^6.1.0":
+  version: 6.2.4
+  resolution: "@codemirror/commands@npm:6.2.4"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.2.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.0.0
+  checksum: 468895fa19ff0554181b698c81f850820de5c0289cab92c44392fb127286f09ca72b921d6ea4353b70b616a4fd0c3667d86b6f917202a3ad2e196eb7b581f7b6
+  languageName: node
+  linkType: hard
+
+"@codemirror/lang-json@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@codemirror/lang-json@npm:6.0.1"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@lezer/json": ^1.0.0
+  checksum: e9e87d50ff7b81bd56a6ab50740b1dd54e9a93f1be585e1d59d0642e2148842ea1528ac7b7221eb4ddc7fe84bbc28065144cc3ab86f6e06c6aeb2d4b4e62acf1
+  languageName: node
+  linkType: hard
+
+"@codemirror/language@npm:^6.0.0":
+  version: 6.8.0
+  resolution: "@codemirror/language@npm:6.8.0"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.0.0
+    "@lezer/highlight": ^1.0.0
+    "@lezer/lr": ^1.0.0
+    style-mod: ^4.0.0
+  checksum: 64408d996641931fa4c6b892e17ee1fdaee0f63d3d84c019a6ea7b1e6d1c774f92357b95c2ebaed60545062b795b72d0a058c03578b2bf4023c87726e97b5d2f
+  languageName: node
+  linkType: hard
+
+"@codemirror/lint@npm:^6.0.0":
+  version: 6.4.0
+  resolution: "@codemirror/lint@npm:6.4.0"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    crelt: ^1.0.5
+  checksum: ba15f7dd87afbceafaa0b68f94b0d53727e4aacca7a81a4ed3278706df5787fdf18cd3f0d807a136f902b2fc2296bf3490462fd543d1d4ced17a0d8c171820fd
+  languageName: node
+  linkType: hard
+
+"@codemirror/search@npm:^6.0.0":
+  version: 6.5.0
+  resolution: "@codemirror/search@npm:6.5.0"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    crelt: ^1.0.5
+  checksum: 2e9f2344b7dbd4bad79058c105d8cbd02b2bf94c27495310f0e3b6e999010aa080dceea47ef46e35439cc9e131b47c46f7d2eda700ef491b5f2f34bbc8e145ab
+  languageName: node
+  linkType: hard
+
+"@codemirror/state@npm:^6.0.0, @codemirror/state@npm:^6.1.1, @codemirror/state@npm:^6.1.4, @codemirror/state@npm:^6.2.0":
+  version: 6.2.1
+  resolution: "@codemirror/state@npm:6.2.1"
+  checksum: d12a321d0471b264b9d3259042bff913a8b939e8d28d408ff452004538a71ca9d5329df3f8a1d8a9183f5b42a7ef5b200737bcab1065714f5ae8e0a5ba9d59d3
+  languageName: node
+  linkType: hard
+
+"@codemirror/theme-one-dark@npm:^6.0.0":
+  version: 6.1.2
+  resolution: "@codemirror/theme-one-dark@npm:6.1.2"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/highlight": ^1.0.0
+  checksum: 29bc09f79534115f62658caf3d0db527fe347d058b69a8c7f580ae636827377aadd0606fd0d83dbab8d6f3b0a5df53d3253c619341b5fb93d2c8291a8efb9556
+  languageName: node
+  linkType: hard
+
+"@codemirror/view@npm:^6.0.0, @codemirror/view@npm:^6.6.0":
+  version: 6.14.1
+  resolution: "@codemirror/view@npm:6.14.1"
+  dependencies:
+    "@codemirror/state": ^6.1.4
+    style-mod: ^4.0.0
+    w3c-keyname: ^2.2.4
+  checksum: 19114ee05b3795ebe07a69cf00c36e8351b3500ce105b8412d90e757d459f71370ead3de852f0fda069041803276e6c38e6f1f943f77e85c9b5c279ab7fa1c4a
   languageName: node
   linkType: hard
 
@@ -2422,12 +2527,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/dom@npm:^1.0.1":
+"@floating-ui/dom@npm:^1.0.1, @floating-ui/dom@npm:^1.2.1":
   version: 1.4.4
   resolution: "@floating-ui/dom@npm:1.4.4"
   dependencies:
     "@floating-ui/core": ^1.3.1
   checksum: e8e43c786e24f8f111a72d7d17c3a9563cab8eddf2a2b3dacc2785370a97313a8dda0f3470b2b2ef2d3b9d6f1fd706ccf786d9441e54e283ed47c90aa0c0b1e1
+  languageName: node
+  linkType: hard
+
+"@floating-ui/react-dom@npm:^1.0.0":
+  version: 1.3.0
+  resolution: "@floating-ui/react-dom@npm:1.3.0"
+  dependencies:
+    "@floating-ui/dom": ^1.2.1
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: ce0ad3e3bbe43cfd15a6a0d5cccede02175c845862bfab52027995ab99c6b29630180dc7d146f76ebb34730f90a6ab9bf193c8984fe8d7f56062308e4ca98f77
   languageName: node
   linkType: hard
 
@@ -2667,6 +2784,15 @@ __metadata:
   version: 3.0.2
   resolution: "@hutson/parse-repository-url@npm:3.0.2"
   checksum: 39992c5f183c5ca3d761d6ed9dfabcb79b5f3750bf1b7f3532e1dc439ca370138bbd426ee250fdaba460bc948e6761fbefd484b8f4f36885d71ded96138340d1
+  languageName: node
+  linkType: hard
+
+"@internationalized/number@npm:^3.1.1":
+  version: 3.2.1
+  resolution: "@internationalized/number@npm:3.2.1"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  checksum: 5b716de97a491c8e276679a47a131d9fc94484f27ae7d2dba2d9e312c607fbdd2deabe0702a9faa79ad1d84ea0676061fd051c3565946f520acfdccc73dd1956
   languageName: node
   linkType: hard
 
@@ -3123,6 +3249,41 @@ __metadata:
     validate-npm-package-name: ^4.0.0
     yargs-parser: 20.2.4
   checksum: dd2c7ffd555468b7e11302de5f2a4da65fa944769c6962be1742db144ee8cf415adf240cfc3a7eca20b8749d7e0f77e716f92359a19431356fce0e2d103e32a5
+  languageName: node
+  linkType: hard
+
+"@lezer/common@npm:^1.0.0":
+  version: 1.0.3
+  resolution: "@lezer/common@npm:1.0.3"
+  checksum: cc90dc2f0aeaebeb3fe886cbd27f8b1e8bee817d8c2efff178604807debd68c5db820fd23afb830962780063d21891afbdf564420221faca2822e77bc6327184
+  languageName: node
+  linkType: hard
+
+"@lezer/highlight@npm:^1.0.0":
+  version: 1.1.6
+  resolution: "@lezer/highlight@npm:1.1.6"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: 411a702394c4c996b7d7f145a38f3a85a8cc698b3918acc7121c629255bb76d4ab383753f69009e011dc415210c6acbbb5b27bde613259ab67e600b29397b03b
+  languageName: node
+  linkType: hard
+
+"@lezer/json@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@lezer/json@npm:1.0.1"
+  dependencies:
+    "@lezer/highlight": ^1.0.0
+    "@lezer/lr": ^1.0.0
+  checksum: fcd17178f6a58e71c83e08fdc047e3708528b28591ba8f08ed35268f370d1ec9b63af0afa9d82a77fec26e9eb477ab3cfdc31c951e080d118ef607f9f9bb52e3
+  languageName: node
+  linkType: hard
+
+"@lezer/lr@npm:^1.0.0":
+  version: 1.3.9
+  resolution: "@lezer/lr@npm:1.3.9"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: d10982bae6c0b2f5a3ab8710a41dc689a4f9e81afafd3d2de4f0bec169f5c3fc9a321c0e90010a51682d41a6755ae90e1f3199134ff194b3ff4058ea5bcdf353
   languageName: node
   linkType: hard
 
@@ -4087,6 +4248,21 @@ __metadata:
   version: 1.1.0
   resolution: "@protobufjs/utf8@npm:1.1.0"
   checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-use-callback-ref@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@radix-ui/react-use-callback-ref@npm:1.0.1"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: b9fd39911c3644bbda14a84e4fca080682bef84212b8d8931fcaa2d2814465de242c4cfd8d7afb3020646bead9c5e539d478cea0a7031bee8a8a3bb164f3bc4c
   languageName: node
   linkType: hard
 
@@ -6192,7 +6368,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.10
     "@strapi/babel-plugin-switch-ee-ce": 4.9.2
     "@strapi/data-transfer": 4.9.2
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/permissions": 4.9.2
@@ -6363,10 +6539,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/design-system@git+https://github.com/idolieb26/design-system.git#v1.6.6":
-  version: 1.0.0
-  resolution: "@strapi/design-system@https://github.com/idolieb26/design-system.git#commit=7e9f5aa2e5e85e87f3292ef88577028edaf67649"
-  checksum: 6af4b63be35c71842c36812ebf630e722cb1281adcc63346ef862c68ac59378c1c4b8ec05c4d0f53442ed84a570b22b84ffb9d7d7d555432be1c6ea9c7d9107c
+"@strapi/design-system@git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6":
+  version: 1.6.6
+  resolution: "@strapi/design-system@https://github.com/idolieb26/strapi-design-system.git#commit=516c1e2ca4bdcc30899e3d34cb9ac3a09c2193da"
+  dependencies:
+    "@codemirror/lang-json": ^6.0.1
+    "@floating-ui/react-dom": ^1.0.0
+    "@internationalized/number": ^3.1.1
+    "@radix-ui/react-use-callback-ref": ^1.0.0
+    "@uiw/react-codemirror": ^4.19.7
+    compute-scroll-into-view: ^1.0.17
+    prop-types: ^15.7.2
+  peerDependencies:
+    "@strapi/icons": ^1.5.0
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    react-router-dom: ^5.2.0
+    styled-components: ^5.2.1
+  checksum: 6b847f93aae7f3926259c26c249000f26a84730c5fce062c3867809c48181a71119f3317216d28620b2ee25cea230ab51804212f5b564a7e5de2a4e89ae5fda0
   languageName: node
   linkType: hard
 
@@ -6440,7 +6630,7 @@ __metadata:
     "@storybook/builder-webpack5": 6.5.15
     "@storybook/manager-webpack5": 6.5.15
     "@storybook/react": ^6.5.16
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/icons": 1.6.6
     "@testing-library/react": 12.1.4
     "@testing-library/react-hooks": 8.0.1
@@ -6523,7 +6713,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-color-picker@workspace:packages/plugins/color-picker"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@testing-library/react": 12.1.4
@@ -6559,7 +6749,7 @@ __metadata:
   dependencies:
     "@sindresorhus/slugify": 1.1.0
     "@strapi/admin": 4.9.2
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/generators": 4.9.2
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
@@ -6596,7 +6786,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-documentation@workspace:packages/plugins/documentation"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/utils": 4.9.2
@@ -6638,7 +6828,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-email@workspace:packages/core/email"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/provider-email-sendmail": 4.9.2
@@ -6667,7 +6857,7 @@ __metadata:
   dependencies:
     "@graphql-tools/schema": 8.5.1
     "@graphql-tools/utils": ^8.12.0
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/utils": 4.9.2
@@ -6702,7 +6892,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-i18n@workspace:packages/plugins/i18n"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/utils": 4.9.2
@@ -6735,7 +6925,7 @@ __metadata:
   resolution: "@strapi/plugin-sentry@workspace:packages/plugins/sentry"
   dependencies:
     "@sentry/node": 6.19.7
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.5
     react: ^17.0.2
@@ -6755,7 +6945,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-upload@workspace:packages/core/upload"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/provider-upload-local": 4.9.2
@@ -6804,7 +6994,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-users-permissions@workspace:packages/plugins/users-permissions"
   dependencies:
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
+    "@strapi/design-system": "git+https://github.com/idolieb26/strapi-design-system.git#v1.6.6"
     "@strapi/helper-plugin": 4.9.2
     "@strapi/icons": 1.6.6
     "@strapi/utils": 4.9.2
@@ -7194,6 +7384,15 @@ __metadata:
     "@swc/core-win32-x64-msvc":
       optional: true
   checksum: 1cfa1ce8967a1d04361af076023bb50cc90bb413c347b0d7c7e86cf9b8277d05471dd2a24708a77365e527c51ddde3cd752fe49975b9e236c3abf9590e3106dd
+  languageName: node
+  linkType: hard
+
+"@swc/helpers@npm:^0.5.0":
+  version: 0.5.1
+  resolution: "@swc/helpers@npm:0.5.1"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: 71e0e27234590435e4c62b97ef5e796f88e786841a38c7116a5e27a3eafa7b9ead7cdec5249b32165902076de78446945311c973e59bddf77c1e24f33a8f272a
   languageName: node
   linkType: hard
 
@@ -8561,6 +8760,51 @@ __metadata:
   dependencies:
     "@ucast/core": ^1.4.1
   checksum: 1817d7dc525eda48c911960a89cf9c820afbf12b3ab0610d856fc66fb27e02d2dd4a773a33ca0a328d6fcc0c9ccb2f1fe093e59546ebb57af093b8f8d2a70a4d
+  languageName: node
+  linkType: hard
+
+"@uiw/codemirror-extensions-basic-setup@npm:4.21.7":
+  version: 4.21.7
+  resolution: "@uiw/codemirror-extensions-basic-setup@npm:4.21.7"
+  dependencies:
+    "@codemirror/autocomplete": ^6.0.0
+    "@codemirror/commands": ^6.0.0
+    "@codemirror/language": ^6.0.0
+    "@codemirror/lint": ^6.0.0
+    "@codemirror/search": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+  peerDependencies:
+    "@codemirror/autocomplete": ">=6.0.0"
+    "@codemirror/commands": ">=6.0.0"
+    "@codemirror/language": ">=6.0.0"
+    "@codemirror/lint": ">=6.0.0"
+    "@codemirror/search": ">=6.0.0"
+    "@codemirror/state": ">=6.0.0"
+    "@codemirror/view": ">=6.0.0"
+  checksum: c81ccef43396c92049a7bd05fecf6e4f7e1adfaed330892ca472b0d65e1ab919dbdd28475baea833a387547fedbe9c7dcc19b92577e1e8bba42084ee86ab3944
+  languageName: node
+  linkType: hard
+
+"@uiw/react-codemirror@npm:^4.19.7":
+  version: 4.21.7
+  resolution: "@uiw/react-codemirror@npm:4.21.7"
+  dependencies:
+    "@babel/runtime": ^7.18.6
+    "@codemirror/commands": ^6.1.0
+    "@codemirror/state": ^6.1.1
+    "@codemirror/theme-one-dark": ^6.0.0
+    "@uiw/codemirror-extensions-basic-setup": 4.21.7
+    codemirror: ^6.0.0
+  peerDependencies:
+    "@babel/runtime": ">=7.11.0"
+    "@codemirror/state": ">=6.0.0"
+    "@codemirror/theme-one-dark": ">=6.0.0"
+    "@codemirror/view": ">=6.0.0"
+    codemirror: ">=6.0.0"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: c4650957d77556f8c2c5b1b072d7b381c7cbec068ff2c744d2891a88d6fb425d520b7b70addc6c82e809326467dcfa913171d62977009faf41be733b079d3e1e
   languageName: node
   linkType: hard
 
@@ -11805,6 +12049,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"codemirror@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "codemirror@npm:6.0.1"
+  dependencies:
+    "@codemirror/autocomplete": ^6.0.0
+    "@codemirror/commands": ^6.0.0
+    "@codemirror/language": ^6.0.0
+    "@codemirror/lint": ^6.0.0
+    "@codemirror/search": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+  checksum: 1a78f7077ac5801bdbff162aa0c61bf2b974603c7e9a477198c3ce50c789af674a061d7c293c58b73807eda345c2b5228c38ad2aabb9319d552d5486f785cbef
+  languageName: node
+  linkType: hard
+
 "collapse-white-space@npm:^1.0.2":
   version: 1.0.6
   resolution: "collapse-white-space@npm:1.0.6"
@@ -12072,6 +12331,13 @@ __metadata:
     safe-buffer: 5.1.2
     vary: ~1.1.2
   checksum: 35c0f2eb1f28418978615dc1bc02075b34b1568f7f56c62d60f4214d4b7cc00d0f6d282b5f8a954f59872396bd770b6b15ffd8aa94c67d4bce9b8887b906999b
+  languageName: node
+  linkType: hard
+
+"compute-scroll-into-view@npm:^1.0.17":
+  version: 1.0.20
+  resolution: "compute-scroll-into-view@npm:1.0.20"
+  checksum: f15fab29221953620735393ac1866541aab0d27d28078bedbba071a291ee9c8cc1a72bee302cf0bc06ed83c5e55afb74ebcbd634a63671ba33cf1fb1c51d3308
   languageName: node
   linkType: hard
 
@@ -12586,6 +12852,13 @@ __metadata:
     create-strapi-starter: ./bin/index.js
   languageName: unknown
   linkType: soft
+
+"crelt@npm:^1.0.5":
+  version: 1.0.6
+  resolution: "crelt@npm:1.0.6"
+  checksum: dad842093371ad702afbc0531bfca2b0a8dd920b23a42f26e66dabbed9aad9acd5b9030496359545ef3937c3aced0fd4ac39f7a2d280a23ddf9eb7fdcb94a69f
+  languageName: node
+  linkType: hard
 
 "cron-parser@npm:^3.5.0":
   version: 3.5.0
@@ -27472,7 +27745,6 @@ __metadata:
     "@babel/core": ^7.20.12
     "@babel/eslint-parser": ^7.19.1
     "@babel/preset-react": 7.18.6
-    "@strapi/design-system": "git+https://github.com/idolieb26/design-system.git#v1.6.6"
     "@strapi/eslint-config": 0.1.2
     "@swc/cli": 0.1.62
     "@swc/core": 1.3.37
@@ -27925,6 +28197,13 @@ __metadata:
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
   checksum: 21425246a5a8f14d1625a657a3a56f8a323193fa341a71af818a2ed2a429efa2385a328b4381cf2f12c2d0e6380801eb9e0427ed9c3a10ff95c86e383184d632
+  languageName: node
+  linkType: hard
+
+"style-mod@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "style-mod@npm:4.0.3"
+  checksum: 934556e720bd29026ff8fef43a1a35b58957813025b91f996d886e9405acf934ddb1934def4400b174bd7784c9263eb9c71f07ae83925af9271b7d921d546854
   languageName: node
   linkType: hard
 
@@ -29793,6 +30072,13 @@ __metadata:
   version: 8.0.0
   resolution: "vscode-textmate@npm:8.0.0"
   checksum: 127780dfea89559d70b8326df6ec344cfd701312dd7f3f591a718693812b7852c30b6715e3cfc8b3200a4e2515b4c96f0843c0eacc0a3020969b5de262c2a4bb
+  languageName: node
+  linkType: hard
+
+"w3c-keyname@npm:^2.2.4":
+  version: 2.2.8
+  resolution: "w3c-keyname@npm:2.2.8"
+  checksum: 95bafa4c04fa2f685a86ca1000069c1ec43ace1f8776c10f226a73296caeddd83f893db885c2c220ebeb6c52d424e3b54d7c0c1e963bbf204038ff1a944fbb07
   languageName: node
   linkType: hard
 
